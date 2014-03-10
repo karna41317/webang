@@ -100,7 +100,7 @@ a.symbol:before {
 }
 
 .home-nav {
-  background: #34495E;
+  background: #1A222B;
 }
 
 .container {
@@ -108,7 +108,7 @@ a.symbol:before {
 }
 
 .active {
-	background: #2C3E50;
+	background: #1E2C3A;
 }
 
 .nav > li > a:hover,

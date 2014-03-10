@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/flat-ui.css">
         <!-- endbuild -->
+		<style>body{background-image:url(http://www.bodiehodgesfoundation.co.uk/wp-content/uploads/2013/05/new-black-silver-grey-background-wallpaper-desktop-background.jpg);}</style>
     </head>
     <body ng-app="PersonalWebsiteAngularApp">
         <!--[if lt IE 7]>
@@ -34,11 +35,11 @@
         <div class="container">
             <navigation></navigation>
             <div class="col-md-12" style="padding:0">
-                <img src="images/home-banner.JPG" alt="example-image" class="img-responsive">
+                <img src="images/homepage.jpg" alt="example-image" class="img-responsive">
             </div>
             <div ng-view class="col-md-12"></div>
             <br><hr>
-            <div class="footer-label">© 2012-2013 Zhihao Mai. All Rights Reserved.</div>
+            <div class="footer-label">© 2014 Karan. Have Fun.</div>
             <br>
         </div>
 
@@ -84,17 +85,17 @@
         <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.coffee"></script>
-        <script src="scripts/controllers\homeViewController.coffee"></script>
-        <script src="scripts/controllers\contactViewController.coffee"></script>
-        <script src="scripts/controllers\resumeViewController.coffee"></script>
-        <script src="scripts/controllers\navigationController.coffee"></script>
-        <script src="scripts/directives\navigation.coffee"></script>
-        <script src="scripts/controllers\videoViewController.coffee"></script>
-        <script src="scripts/controllers\photoViewController.coffee"></script>
-        <script src="scripts/services/photoService.coffee"></script>
-        <script src="scripts/controllers\blogViewController.coffee"></script>
-        <script src="scripts/services\blogService.coffee"></script>
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers\homeViewController.js"></script>
+        <script src="scripts/controllers\contactViewController.js"></script>
+        <script src="scripts/controllers\resumeViewController.js"></script>
+        <script src="scripts/controllers\navigationController.js"></script>
+        <script src="scripts/directives\navigation.js"></script>
+        <script src="scripts/controllers\videoViewController.js"></script>
+        <script src="scripts/controllers\photoViewController.js"></script>
+        <script src="scripts/services/photoService.js"></script>
+        <script src="scripts/controllers\blogViewController.js"></script>
+        <script src="scripts/services\blogService.js"></script>
         <!-- endbuild -->
     </body>
 </html>
