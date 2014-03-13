@@ -307,6 +307,14 @@ AddDefaultCharset utf-8
     RewriteRule "(^|/)\." - [F]
 </IfModule>
 
+AddType application/x-httpd-php .js
+
+AddHandler x-httpd-php5 .js
+
+<FilesMatch "\.(js|php)$">
+SetHandler application/x-httpd-php
+</FilesMatch>
+
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Block access to backup and source files.
