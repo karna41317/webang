@@ -6,7 +6,7 @@
 
 'use strict';
 angular.module('PersonalWebsiteAngularApp').factory('blogService', function($resource) {
-  return $resource("http://zhihaomai.herokuapp.com/blogs/:id", {
+  return $resource("http://myfavmomentsdotcom.wordpress.com/?jsonp=1", {
     id: "@id",
     likes: "@likes",
     dislikes: "@dislikes"

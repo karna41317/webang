@@ -1,5 +1,5 @@
 'use strict';
-angular.module('PersonalWebsiteAngularApp', []).config(function($routeProvider) {
+angular.module('PersonalWebsiteAngularApp', ['ngResource']).config(function($routeProvider) {
   return $routeProvider.when('/', {
     templateUrl: 'views/homeView.html',
     controller: 'HomeViewCtrl'
@@ -14,7 +14,7 @@ angular.module('PersonalWebsiteAngularApp', []).config(function($routeProvider) 
     controller: 'VideoViewCtrl'
   }).when('/photo', {
     templateUrl: 'views/photoView.html',
-    //controller: 'PhotoViewCtrl'
+    controller: 'PhotoViewCtrl'
   }).when('/blog', {
     templateUrl: 'views/blogView.html',
     controller: 'BlogViewCtrl'
